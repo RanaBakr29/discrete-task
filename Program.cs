@@ -1,54 +1,40 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace prime_numbers
+namespace Prefect_number_2
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Find prime numbers within a given number of range:");
+            int  i, sum;
+
+            Console.WriteLine("Find perfect numbers within a given number of range:\n");
             Console.WriteLine("------------------------------------------------------");
 
 
-            Console.WriteLine("ENTER THE NUMBER 1 ");
-            int startnumber = int.Parse(Console.ReadLine());
-            Console.WriteLine("ENTER THE NUMBER 2 ");
-            int endnumber = int.Parse(Console.ReadLine());
-            int sum = 0;
-            Console.WriteLine("the prime numbers : ");
-            for (int i = startnumber; i <= endnumber; i++)
+            Console.Write("Input the starting range or number : ");
+            int mn = int.Parse(Console.ReadLine());
+            Console.Write("Input the ending range of number : ");
+            int mx = int.Parse(Console.ReadLine());
+            Console.Write("The Perfect numbers within the given range : ");
+            for ( int n = mn; n <= mx; n++)
             {
-                for (int r = 1; r <=i; r++)
+                i = 1;
+                sum = 0;
+                while (i < n)
                 {
-                    if (i % r == 0)
-                    {
-                        sum++;
-
-                    }
-                   
+                    if (n % i == 0)
+                        sum += i;
+                    i++;
                 }
-                if (sum == 2)
-                {
-                    Console.WriteLine( "{0}" ,i);
-                    sum = 0;
-                }
-                else
-                {
-                    sum = 0;
-                    continue;
-                }
+                if (sum == n)
+                    Console.Write("{0} ", n);
             }
-          
-
-
+            Console.Write("\n");
         }
-
-        }
-        
     }
-
+}

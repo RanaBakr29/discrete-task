@@ -1,0 +1,8 @@
+C:\Users\AS\source\repos\Prefect number 2\Prefect number 2\bin\Debug\Prefect number 2.exe.config
+C:\Users\AS\source\repos\Prefect number 2\Prefect number 2\bin\Debug\Prefect number 2.exe
+C:\Users\AS\source\repos\Prefect number 2\Prefect number 2\bin\Debug\Prefect number 2.pdb
+C:\Users\AS\source\repos\Prefect number 2\Prefect number 2\obj\Debug\Prefect number 2.csproj.AssemblyReference.cache
+C:\Users\AS\source\repos\Prefect number 2\Prefect number 2\obj\Debug\Prefect number 2.csproj.SuggestedBindingRedirects.cache
+C:\Users\AS\source\repos\Prefect number 2\Prefect number 2\obj\Debug\Prefect number 2.csproj.CoreCompileInputs.cache
+C:\Users\AS\source\repos\Prefect number 2\Prefect number 2\obj\Debug\Prefect number 2.exe
+C:\Users\AS\source\repos\Prefect number 2\Prefect number 2\obj\Debug\Prefect number 2.pdb
